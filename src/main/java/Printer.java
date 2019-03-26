@@ -27,8 +27,8 @@ public class Printer {
         this.numberOfSheetsLeft += sheets;
     }
 
-    public void tonerDecreasedInVolume(int pages){
-        this.toner -= pages;
+    public void tonerDecreasedInVolume(int pages, int copies){
+        this.toner -= pages * copies;
     }
 
 

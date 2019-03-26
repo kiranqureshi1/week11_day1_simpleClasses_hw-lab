@@ -35,8 +35,8 @@ public class TestPrinter {
 
     @Test
     public void tonerDecresedInVolume(){
-        printer.tonerDecreasedInVolume(10);
-        assertEquals(50, printer.getTonerVolume());
+        printer.tonerDecreasedInVolume(10, 2);
+        assertEquals(40, printer.getTonerVolume());
     }
 
 
